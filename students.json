@@ -1,0 +1,90 @@
+{
+  "students": [
+    {
+      "id": "1",
+      "name": "Hina",
+      "gender": "Female",
+      "contact": "300-444-0002",
+      "english": 90,
+      "mathametics": 100,
+      "science": 76,
+      "courses": ["javascript", "java", "Selenium"]
+    },
+    {
+      "id": "2",
+      "name": "Hania",
+      "gender": "Female",
+      "contact": "0304-323-222",
+      "english": 90,
+      "mathametics": 100,
+      "science": 76,
+      "computer": ["Java", "Python", "C++"]
+    },
+    {
+      "id": "3",
+      "name": "Ammar",
+      "gender": "Male",
+      "contact": "311-333-4548",
+      "age": 25,
+      "mathametics": 100,
+      "science": 60,
+      "courses": ["Selenium", "javascript", "java"]
+    },
+    {
+      "id": "4",
+      "name": "aleena",
+      "gender": "Female",
+      "contact": "331-778-8962",
+      "english": 100,
+      "mathametics": 100,
+      "computer": 80,
+      "Courses": ["React", "cypress"]
+    },
+    {
+      "id": "5",
+      "name": "imad",
+      "gender": "Male",
+      "contact": "333-555-8090",
+      "english": 70,
+      "mathametics": 80,
+      "computer": 100,
+      "courses": ["'react', 'javascript', 'java'"]
+    },
+    {
+      "id": "6",
+      "name": "saira",
+      "gender": "female",
+      "english": 100,
+      "mathametics": 100,
+      "computer": 80,
+      "Courses": ["react", "javascript", "C#"]
+    },
+    {
+      "id": "7",
+      "name": "leam",
+      "gender": "female",
+      "english": 100,
+      "mathametics": 100,
+      "computer": 80,
+      "Courses": ["react", "postman", "cypress"]
+    },
+    {
+      "id": "8",
+      "name": "john",
+      "gender": "female",
+      "english": 100,
+      "mathametics": 100,
+      "computer": 80,
+      "Courses": ["cypress", "java", "Selenium"]
+    },
+    {
+      "id": "9",
+      "name": "ayesha",
+      "gender": "female",
+      "english": 100,
+      "mathametics": 100,
+      "computer": 80,
+      "Courses": ["Selenium", "java", "cypress"]
+    }
+  ]
+}

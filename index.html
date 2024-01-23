@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //testing content type
+      test["Conetnt-Type header should be present"] =
+        responseHeaders.hasOwnProperty("Content-type");
+
+      var expectedContentType = "application/json";
+      tests["Content-Type should be application/json"] =
+        responseHeaders["Content-Type"] === expectedContentType;
+
+      //checking headers
+      pm.test("Content-Type header is present", () => {
+        pm.response.to.have.header("Content-type");
+      });
+
+      pm.test("Content-Type header is application/json", () => {
+        pm.expect(pm.response.headers.get("Content-Type")).to.eql(
+          "application/json; charset=utf-8"
+        );
+      });
+
+      //Checking Status Code
+      pm.test("Status code is (200)", function () {
+        pm.response.to.have.status(200);
+      });
+
+      //Checking Header
+      pm.test("content-type Header is present", function () {
+        pm.response.to.have.header("Content-Type");
+      });
+
+      // Checking Header Type
+      pm.test("Content-Type Header is application/json", function () {
+        pm.expect(pm.response.headers.get("Content-Type")).to.eql(
+          "application/json"
+        );
+      });
+
+      //Test if a cookie is present in the response:
+      pm.test("Cookie 'language' is present", function () {
+        pm.expect(pm.cookies.has("anguage")).to.be.true;
+      });
+      //Test for a particular cookie value:
+      pm.test("Cookie language has value 1", function () {
+        pm.expect(pm.cookies.get("language")).to.eql("en-gb");
+      });
+      //Testing response times
+      //Test for the response time to be within a specified range:
+      pm.test("Response time is less than 200ms", function () {
+        pm.expect(pm.response.responseTime).to.be.below;
+      });
+      200;
+    </script>
+  </body>
+</html>

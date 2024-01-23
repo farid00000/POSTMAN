@@ -1,0 +1,14 @@
+{
+  "id": "2",
+  "name": "Hania",
+  "gender": "Female",
+  "contact": "0304-323-222",
+  "english": 90,
+  "mathametics": 100,
+  "science": 76,
+  "computer": [
+    "Java",
+    "Python",
+    "C++"
+  ]
+}

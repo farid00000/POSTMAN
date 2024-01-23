@@ -1,0 +1,69 @@
+[
+  {
+    "message": "All content sections fetched",
+    "status": true,
+    "result": [
+      {
+        "_id": "64895521a40b672153a3b270",
+        "section": 1,
+        "heading": "Welcome to BallochParkGuide123",
+        "text": "Your ultimate companion for exploring the breathtaking landscapes and hidden wonders of Balloch Castle Country Park, Loch Lomond.",
+        "__v": 0,
+        "images": []
+      },
+      {
+        "_id": "648957c6a40b672753a3b273",
+        "section": 2,
+        "heading": "Key Features1234",
+        "text": "BallochParkGuide guarantees to vastly improve your overall experience, making your visit well-prepared and more enjoyable with the following key features.",
+        "__v": 0,
+        "images": []
+      },
+      {
+        "_id": "64895833a40b672753a3b27a",
+        "section": 4,
+        "heading": "Choose a Category",
+        "text": "Browse our treasure trove of categories in our specialized feature-rich menu.",
+        "__v": 0,
+        "images": [
+          {
+            "image_url": "https://res.cloudinary.com/dzkcdotxx/image/upload/v1705518999/jwwhhq7qkdviiukdmdem.png",
+            "public_id": "jwwhhq7qkdviiukdmdem"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "message": "All content sections fetched",
+    "status": true,
+    "result": [
+      {
+        "_id": "648958a0a40b672753a3b283",
+        "section": 5,
+        "heading": "View Category On Map1233",
+        "text": "View the category marker's on our user-friendly interactive map.",
+        "__v": 0,
+        "images": [
+          {
+            "image_url": "https://res.cloudinary.com/dzkcdotxx/image/upload/v1705581611/reenfu8cayhddyclnjxe.jpg",
+            "public_id": "reenfu8cayhddyclnjxe"
+          }
+        ]
+      },
+      {
+        "_id": "648958bfa40b672753a3b287",
+        "section": 6,
+        "heading": "Select a Marker",
+        "text": "Select a marker to reveal all of it's information including, photo's, detailed description & reviews. You also have the option to save, add notes and leave a review yourself.",
+        "__v": 0,
+        "images": [
+          {
+            "image_url": "https://res.cloudinary.com/dzkcdotxx/image/upload/v1690584935/srkqzbozj1y0d3sk4qca.png",
+            "public_id": "srkqzbozj1y0d3sk4qca"
+          }
+        ]
+      }
+    ]
+  }
+]
